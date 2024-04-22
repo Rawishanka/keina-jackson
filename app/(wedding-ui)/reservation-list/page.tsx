@@ -1,6 +1,9 @@
 import React from "react";
 import ReservationForm from "../home/reservation-form";
 import { fetchData } from "@/app/lib/data";
+import { Status } from "@prisma/client";
+
+
 
 const ReservationList = async () => {
   const data = await fetchData();

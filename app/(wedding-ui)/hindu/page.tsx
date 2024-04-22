@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { cinzel, greatVibes, halant } from "@/app/fonts";
 import Navbar from "../home/navbar";
+import Link from "next/link";
+import { HiExternalLink } from "react-icons/hi";
 
 const Christian = () => {
   return (
@@ -16,52 +18,59 @@ const Christian = () => {
         </h1>
         <h2 className={`${cinzel.className} md:text-xl pt-5`}>2024-09-07</h2>
       </div>
-      <div className="flex flex-wrap lg:flex-nowrap justify-center items-center bg-light-primary">
-        {/* left-side */}
 
-        <div className="lg:w-1/3 bg-light-primary text-white lg:px-14 flex flex-col px-10">
-          <h1 className={`${cinzel.className} text-xl md:text-3xl mt-11`}>
-          Hindu Ceramony
-          </h1>
-          <h2 className={`${cinzel.className} md:text-xl mt-4`}>
-          September 6 2024
-          </h2>
-          <p
-            className={`${halant.className} mt-8 text-base tracking-wide leading-loose`}
-          >
-            Address - Mandair :Shri Radha Krishna Mandir
-126-04 133rd Ave, South Ozone Park, NY 11420
-          </p>
-          <p className={`${halant.className} mt-2 text-base tracking-wide leading-loose `}>Time: 2:00 pm  </p>
-          <p className={`${halant.className} mt-2 text-base tracking-wide leading-loose mb-5`}>Dress Code: Traditional Indian Clothing</p>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.139380529305!2d-73.81289160000001!3d40.6708978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26715fb525079%3A0x2ec9d6e29a3869a7!2sShri%20Radha%20Krishna%20Mandir!5e0!3m2!1sen!2slk!4v1713644982219!5m2!1sen!2slk"
-              width="auto"
-              height="150"
-              style={{ border: 0 }}
-            allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-        </div>
-        {/* right-side */}
-
-        <div className="lg:w-2/3 mt-5 md:mt-0">
+    
+    <div className="flex flex-wrap lg:flex-nowrap w-full justify-between bg-light-primary">
+      {/* left side */}
+      <div className="lg:w-1/2 flex flex-col bg-light-primary">
+        <div className="relative group overflow-hidden">
           <Image
-            src={"/photo5.png"}
+            className=""
+            src={"/photo9.png"}
             width={2000}
             height={1400}
-            quality={100}
-            layout="responsive"
-            alt={""}
+            alt={"photo 1"}
           />
         </div>
       </div>
-      <audio autoPlay loop>
-        <source src="/background-music.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
+      {/* right side */}
+      <div className="flex lg:w-1/2 flex-col justify-center bg-light-primary">
+        <div className="bg-light-primary">
+          <div className=" text-white sm:px-10 px-3 w-full">
+            <h1 className={`${cinzel.className} lg:text-6xl text-3xl mt-3`}>
+              Hindu Ceramony
+            </h1>
+            <h2 className={`${cinzel.className} text-xl lg:text-3xl mt-4`}>
+              September 6 2024
+            </h2>
+            <p
+              className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8 lg:text-lg`}
+            >
+              Address - Mandair :Shri Radha Krishna Mandir 126-04 133rd Ave,
+              South Ozone Park, NY 11420
+              <br />
+              Time: 2:00 pm
+              <br />
+              Dress Code: Traditional Indian Clothing
+            </p>
+            <div className="w-full">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.139380529305!2d-73.81289160000001!3d40.6708978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26715fb525079%3A0x2ec9d6e29a3869a7!2sShri%20Radha%20Krishna%20Mandir!5e0!3m2!1sen!2slk!4v1713644982219!5m2!1sen!2slk"
+                width="auto"
+                height="90"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full lg:mb-0 mb-4"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
+
   );
 };
 

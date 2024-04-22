@@ -31,7 +31,7 @@ const Hindu = () => {
         {/* left-side */}
         <div className="lg:w-1/2 w-full">
           <Image
-            src={"/photo8.png"}
+            src={"/photo10.png"}
             width={2000}
             height={1400}
             quality={100}
@@ -42,19 +42,22 @@ const Hindu = () => {
         {/* right-side */}
         <div className="lg:w-1/2 w-full bg-light-primary text-white lg:px-8 flex flex-col justify-start px-8">
           <div className="">
-            <h1 className={`${cinzel.className} text-2xl md:text-3xl mt-11`}>
+            <h1 className={`${cinzel.className} text-2xl lg:text-3xl mt-11`}>
               Christian Ceramony
             </h1>
-            <h2 className={`${cinzel.className} md:text-xl mt-2`}>
-              September 7 2024
-            </h2>
-            <p
-              className={`${halant.className} mt-4 text-base tracking-wide leading-loose mb-8`}
-            >
-              Global christian ministry 8615 114th St, Jamaica, NY 11418 <br />
-              Time: 2:00pm <br />
-              Dress Code: Traditional Indian Clothing
-            </p>
+            <div>
+              <h2 className={`${cinzel.className} md:text-2xl mt-2`}>
+                September 7 2024
+              </h2>
+              <p
+                className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
+              >
+                Global christian ministry 8615 114th St, Jamaica, NY 11418{" "}
+                <br />
+                Time: 2:00pm <br />
+                Dress Code: Traditional Indian Clothing
+              </p>
+            </div>
           </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.852515722207!2d-73.8347265!3d40.699245700000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260ac1e2f6be9%3A0xa4685cecdaed7b30!2sGlobal%20Christian%20Ministries%20I!5e0!3m2!1sen!2slk!4v1713642281795!5m2!1sen!2slk"
@@ -64,16 +67,17 @@ const Hindu = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            className="w-auto"
           ></iframe>
           <div className="">
             <h1 className={`${cinzel.className} text-2xl md:text-3xl mt-11`}>
               Reception Villa La Russo
             </h1>
-            <h2 className={`${cinzel.className} md:text-xl mt-2`}>
+            <h2 className={`${cinzel.className} md:text-2xl mt-2`}>
               September 7 2024
             </h2>
             <p
-              className={`${halant.className} mt-4 text-base tracking-wide leading-loose mb-8`}
+              className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
             >
               Address : Villa La Russo 101-12 Lefferts Blvd, Richmond Hill, NY
               11419 <br />

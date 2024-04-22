@@ -20,12 +20,11 @@ import Info from "./(wedding-ui)/home/info";
 import View from "./(wedding-ui)/home/view";
 import { cinzel, greatVibes } from "@/app/fonts";
 import Quots from "./(wedding-ui)/home/quots";
+import { getAudioInstance } from "./lib/utils";
 const HomePage = () => {
 
   useEffect(() => {
-    const audio = new Audio('/invite.mp3');
-    audio.loop = true; // Loop the audio
-    audio.play(); // Start playing the audio
+    const audio = getAudioInstance(); // Use getAudioInstance function to get the audio instance
     return () => {
       audio.pause(); // Pause the audio when component unmounts
     };

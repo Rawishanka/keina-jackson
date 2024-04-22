@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import prisma from "@/prisma/client";
 import { z } from "zod";
+import { ReservationData } from "./definition";
 
 const FormSchema = z.object({
   name: z.string(),
@@ -15,12 +16,12 @@ const FormSchema = z.object({
   ]),
   message: z.string(),
 });
-export async function createProduct(formData:FormData) {
+export async function createProduct(formData:ReservationData) {
     const {name, email, status, message} = FormSchema.parse({
-      name: formData.get("name"),
-      email: formData.get("email"),
-      status: formData.get("ceremony"),
-      message: formData.get("message"),
+      name: formData.Name,
+      email: formData.Email,
+      status: formData.Status,
+      message: formData.Message,
     });
     const reserversation = await prisma.data.create({
         data: {
@@ -30,7 +31,7 @@ export async function createProduct(formData:FormData) {
           Message:message
         },
       })
-    revalidatePath("/home");
-    redirect("/");
+    revalidatePath("/");
+    return true;
     // Test it out:
   }

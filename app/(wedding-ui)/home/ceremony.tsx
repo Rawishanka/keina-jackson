@@ -44,7 +44,7 @@ const Ceremony = () => {
             2:00pm Dress Code: Traditional Indian Clothing
           </p>
           <div className="mb-2 sm:mb-0 flex items-center">
-            <Link href={""} className="text-xl flex items-center">
+            <Link href={"https://maps.app.goo.gl/3nBpmBr9rYsKxyLE8"} className="text-xl flex items-center">
               <span className={`${cinzel.className} text-sm`}>location</span>
               <HiExternalLink className="ml-1" />{" "}
               {/* Adjust the margin as needed */}
@@ -70,7 +70,7 @@ const Ceremony = () => {
               Clothing
             </p>
             <div className="pb-2 flex items-center">
-              <Link href={""} className="text-xl mb-2 flex items-center">
+              <Link href={"https://maps.app.goo.gl/1gpZs3j1Q3J22K779"} className="text-xl mb-2 flex items-center">
                 <span className={`${cinzel.className} text-sm`}>location</span>
                 <HiExternalLink className="ml-1" />{" "}
                 {/* Adjust the margin as needed */}
