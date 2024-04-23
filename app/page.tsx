@@ -8,7 +8,7 @@
 //   );
 // }
 'use client'
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./(wedding-ui)/home/navbar";
 import Slider from "./(wedding-ui)/home/slider";
 import DateBannar from "./(wedding-ui)/home/date-banner";
@@ -22,13 +22,16 @@ import { cinzel, greatVibes } from "@/app/fonts";
 import Quots from "./(wedding-ui)/home/quots";
 import { getAudioInstance } from "./lib/utils";
 const HomePage = () => {
+  const [audioStarted, setAudioStarted] = useState(false);
 
   useEffect(() => {
-    const audio = getAudioInstance(); // Use getAudioInstance function to get the audio instance
-    return () => {
-      audio.pause(); // Pause the audio when component unmounts
-    };
-  }, []);
+    if (!audioStarted) {
+      const audio = getAudioInstance();
+      audio.play();
+      setAudioStarted(true);
+    }
+  }, [audioStarted]);
+
 
   return (
     <div>
