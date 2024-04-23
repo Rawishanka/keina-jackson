@@ -14,7 +14,7 @@ const DateBannar = () => {
   const [timeRemaining, setTimeRemaining] = useState(time);
 
   useEffect(() => {
-    const weddingDate: Date = new Date("2024-09-07T23:59:59");
+    const weddingDate: Date = new Date("2024-09-06T23:59:59");
     const intervalId = setInterval(() => {
       const difference = +new Date(weddingDate) - +new Date();
       let timeRemaining: Time = {
@@ -51,7 +51,7 @@ const DateBannar = () => {
               <BsStopwatchFill />
             </div>
           </div>
-          Missing Days to
+          Countdown to
           <br /> Wedding
         </div>
         <div className="col-span-1 bg-light-primary shadow-2xl flex-col text-white text-4xl flex justify-center items-center ">

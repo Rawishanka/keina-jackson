@@ -32,19 +32,26 @@ const Ceremony = () => {
         </div>
         <div className="bg-light-primary text-white px-20">
           <h1 className={`${cinzel.className} text-3xl mt-11`}>
-            Christian Ceramony
+            Hindu Ceramony
           </h1>
           <h2 className={`${cinzel.className} text-xl mt-4`}>
-            September 7 2024
+            September 6 2024
           </h2>
           <p
             className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8`}
           >
-            Global christian ministry 8615 114th St, Jamaica, NY 11418 Time:
-            2:00pm Dress Code: Traditional Indian Clothing
+            Mandair :Shri Radha Krishna Mandir 126-04 133rd Ave, South Ozone
+            Park, NY 11420
+            <br />
+            Time: 2:00pm
+            <br />
+            Dress Code: Traditional Indian Clothing
           </p>
           <div className="mb-2 sm:mb-0 flex items-center">
-            <Link href={"https://maps.app.goo.gl/3nBpmBr9rYsKxyLE8"} className="text-xl flex items-center">
+            <Link
+              href={"https://maps.app.goo.gl/3nBpmBr9rYsKxyLE8"}
+              className="text-xl flex items-center"
+            >
               <span className={`${cinzel.className} text-sm`}>location</span>
               <HiExternalLink className="ml-1" />{" "}
               {/* Adjust the margin as needed */}
@@ -57,20 +64,24 @@ const Ceremony = () => {
         <div className="bg-light-secondary">
           <div className=" text-white px-20">
             <h1 className={`${cinzel.className} text-3xl mt-11`}>
-              Hindu Ceramony
+              Christian Ceramony
             </h1>
             <h2 className={`${cinzel.className} text-xl mt-4`}>
-              September 6 2024
+              September 7 2024
             </h2>
             <p
               className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8`}
             >
-              Mandair :Shri Radha Krishna Mandir 126-04 133rd Ave, South Ozone
-              Park, NY 11420 Time: 2:00pm Dress Code: Traditional Indian
-              Clothing
+              Global christian ministry 8615 114th St, Jamaica, NY 11418 <br />
+              Time:3:00pm
+              <br />
+              Dress Code: Formal Clothing
             </p>
             <div className="pb-2 flex items-center">
-              <Link href={"https://maps.app.goo.gl/1gpZs3j1Q3J22K779"} className="text-xl mb-2 flex items-center">
+              <Link
+                href={"https://maps.app.goo.gl/1gpZs3j1Q3J22K779"}
+                className="text-xl mb-2 flex items-center"
+              >
                 <span className={`${cinzel.className} text-sm`}>location</span>
                 <HiExternalLink className="ml-1" />{" "}
                 {/* Adjust the margin as needed */}

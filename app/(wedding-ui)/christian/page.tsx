@@ -24,7 +24,7 @@ const Hindu = () => {
           CHRISTIAN CEREMONY
         </h1>
         <h2 className={`${cinzel.className} text-sm md:text-xl pt-5`}>
-          2024-09-08
+          2024-09-07
         </h2>
       </div>
       <div className="flex flex-wrap lg:flex-nowrap justify-center items-center lg:bg-light-primary">
@@ -54,8 +54,8 @@ const Hindu = () => {
               >
                 Global christian ministry 8615 114th St, Jamaica, NY 11418{" "}
                 <br />
-                Time: 2:00pm <br />
-                Dress Code: Traditional Indian Clothing
+                Time: 3:00pm <br />
+                Dress Code: Formal Clothing
               </p>
             </div>
           </div>
