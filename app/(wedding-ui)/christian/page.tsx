@@ -5,14 +5,6 @@ import { cinzel, greatVibes, halant } from "@/app/fonts";
 import Navbar from "../home/navbar";
 
 const Hindu = () => {
-  useEffect(() => {
-    const audio = new Audio("/invite.mp3");
-    audio.loop = true; // Loop the audio
-    audio.play(); // Start playing the audio
-    return () => {
-      audio.pause(); // Pause the audio when component unmounts
-    };
-  }, []);
   return (
     <section className="realtive ">
       <div className="absolute top-6 left-0 z-10 w-full">
@@ -122,10 +114,6 @@ const Hindu = () => {
           ></iframe> */}
         </div>
       </div>
-      <audio autoPlay loop>
-        <source src="/background-music.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
     </section>
   );
 };

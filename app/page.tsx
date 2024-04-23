@@ -22,23 +22,23 @@ import { cinzel, greatVibes } from "@/app/fonts";
 import Quots from "./(wedding-ui)/home/quots";
 import { getAudioInstance } from "./lib/utils";
 const HomePage = () => {
-  const [audioStarted, setAudioStarted] = useState(false);
+  // const [audioStarted, setAudioStarted] = useState(false);
 
-  useEffect(() => {
-    if (!audioStarted) {
-      const audio = getAudioInstance();
-      audio.play();
-      setAudioStarted(true);
-    }
-  }, [audioStarted]);
+  // useEffect(() => {
+  //   if (!audioStarted) {
+  //     const audio = getAudioInstance();
+  //     audio.play();
+  //     setAudioStarted(true);
+  //   }
+  // }, [audioStarted]);
 
 
   return (
     <div>
-      <audio autoPlay loop>
+      {/* <audio autoPlay loop>
         <source src="/invite.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
-      </audio>
+      </audio> */}
       <div className="relative">
         <div className="absolute top-3 left-0 z-10 w-full">
           <Navbar />
