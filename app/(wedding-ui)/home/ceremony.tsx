@@ -32,7 +32,7 @@ const Ceremony = () => {
         </div>
         <div className="bg-light-primary text-white px-20">
           <h1 className={`${cinzel.className} text-3xl mt-11`}>
-            Hindu Ceramony
+            Hindu Ceremonyny
           </h1>
           <h2 className={`${cinzel.className} text-xl mt-4`}>
             September 6 2024
@@ -64,7 +64,7 @@ const Ceremony = () => {
         <div className="bg-light-secondary">
           <div className=" text-white px-20">
             <h1 className={`${cinzel.className} text-3xl mt-11`}>
-              Christian Ceramony
+              Christian Ceremonyny
             </h1>
             <h2 className={`${cinzel.className} text-xl mt-4`}>
               September 7 2024

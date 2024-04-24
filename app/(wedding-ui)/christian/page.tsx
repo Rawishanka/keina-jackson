@@ -35,7 +35,7 @@ const Hindu = () => {
         <div className="lg:w-1/2 w-full bg-light-primary text-white lg:px-8 flex flex-col justify-start px-8">
           <div className="">
             <h1 className={`${cinzel.className} text-2xl lg:text-3xl mt-11`}>
-              Christian Ceramony
+              Christian Ceremonyny
             </h1>
             <div>
               <h2 className={`${cinzel.className} md:text-2xl mt-2`}>

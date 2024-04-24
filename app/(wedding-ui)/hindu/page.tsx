@@ -38,7 +38,7 @@ const Christian = () => {
         <div className="bg-light-primary">
           <div className=" text-white sm:px-10 px-3 w-full">
             <h1 className={`${cinzel.className} lg:text-6xl text-3xl mt-3`}>
-              Hindu Ceramony
+              Hindu Ceremonyny
             </h1>
             <h2 className={`${cinzel.className} text-xl lg:text-3xl mt-4`}>
               September 6 2024
