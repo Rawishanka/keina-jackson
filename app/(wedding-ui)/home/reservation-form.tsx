@@ -82,12 +82,12 @@ const ReservationForm = () => {
         className={`${cinzel.className} bg-white flex flex-col items-center rounded md:w-130`}
       >
         <h1 className={`${cinzel.className} mt-5 sm:text-3xl text-2xl`}>
-          Confimation{" "}
+          R.S.V.P{" "}
         </h1>
-        <h2 className={`${cinzel.className}`}>R.S.V.P.</h2>
+        <h2 className={`${cinzel.className}`}>Deadline to RSVP is July 22</h2>
         <form className="py-8 px-10" action="" onSubmit={handleSubmit}>
           <div>
-            <span className="flex text-sm sm:text-md">Name </span>
+            <span className="flex text-sm sm:text-md font-bold">Name </span>
             <input
               type="text"
               name="name"
@@ -98,7 +98,7 @@ const ReservationForm = () => {
             />
           </div>
           <div className="mt-4">
-            <span className="flex text-sm sm:text-md">Email </span>
+            <span className="flex text-sm sm:text-md font-bold">Email </span>
             <input
               type="email"
               required
@@ -109,7 +109,7 @@ const ReservationForm = () => {
             />
           </div>
           <div className="mt-4">
-            <span className="flex text-sm sm:text-md">
+            <span className="flex text-sm sm:text-md font-bold">
               Select Your Function{" "}
             </span>
             <select
@@ -127,7 +127,7 @@ const ReservationForm = () => {
             </select>
           </div>
           <div className="mt-4">
-            <span className="flex text-sm sm:text-md">Message</span>
+            <span className="flex text-sm sm:text-md font-bold">Message</span>
             <textarea
               name="message"
               onChange={handleMessageChange}

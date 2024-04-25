@@ -17,7 +17,7 @@ const Quots = () => {
       <div className="each-slide">
         <div className="h-40 bg-light-secondary flex flex-col text-center justify-center items-center ">
           <h1 className={`${cinzel.className} md:text-2xl text-md text-white`}>
-           Welcome, family and friends! We&aposre thrilled to commemorate this next phase in our lives with you.
+           Welcome, family and friends! We&apos;re thrilled to commemorate this next phase in our lives with you.
           </h1>
           <h2 className={`${greatVibes.className} text-white md:text-2xl pt-2`}>
           Samuel & Vidya
@@ -27,7 +27,7 @@ const Quots = () => {
       <div className="each-slide">
         <div className="h-40 bg-light-secondary flex flex-col text-center justify-center items-center ">
           <h1 className={`${cinzel.className} md:text-2xl text-md text-white`}>
-          We said yes! Join us in the countdown until we say &quotI do.&quot
+          We said yes! Join us in the countdown until we say &quot;I do.&quot;
           </h1>
           <h2 className={`${greatVibes.className} text-white md:text-2xl pt-2`}>
           Samuel & Vidya

@@ -31,24 +31,22 @@ const Info = () => {
         <h1 className="text-3xl pt-3">OUR STORY</h1>
         <h2 className="text-xl pt-3">Our Journey Together</h2>
         <p className={`${halant.className} text-left pt-3 px-10 md:px-0 tracking-wide `}>
-        Traveling the world together and making memories became their favorite activity. 
-        From ATVing in Mexico to climbing waterfalls in Jamica, traveling, and making memories has become a passion for them. 
-        They love going on adventures, eating at new restaurants and discovering new activities. Some of their hobbies include 
-        taking drives and finding beautiful places to explore. Other than making their own memories youll find Samuel and Vidya 
-        spending time with their loved ones. Therefore, they both cherish family over everything else.
+        Join Samuel and Vidya as they embark on a journey of love and adventure! From traveling the globe to creating cherished memories, 
+        they&apos;ve discovered a shared passion for exploration. Whether it&apos;s ATVing in Mexico or indulging in new cuisines, 
+        their adventures have only deepened their bond. Apart from creating their own memories, Samuel and Vidya dedicate much of their time 
+        to being with their loved ones, demonstrating their deep appreciation for family above all else
 
         </p>
         <p className={`${halant.className} text-left pt-6 px-10 md:px-0 tracking-wide  `}>
-        Their proposal story begins on their 2021 trip to Costa Rica. They arrived at a restaurant there called &quot;Alma De Pacifico&quot;. 
-        Samuel then blindfolded Vidya and led her through the restaurant to the beach. He took the blindfold off of her revealing the 
-        Don Toro beach surrounded by rose petals, candles, and a sign that said, “Marry Me?”. In the background played the song Perfect 
-        by Ed Sheeran. He popped the question and she said Yes! The rest of their night was spent enjoying a private dinner on the beach 
-        letting it sink in that they were engaged! 
+        Their love story reached a new milestone during a romantic trip to Costa Rica in 2021. Samuel orchestrated a breathtaking proposal 
+        at the &quot;Alma De Pacifico&quot; restaurant, leading Vidya to the Don Toro beach adorned with roses, candles, and a heartfelt plea, 
+        &quot;Marry Me?&quot; With Ed Sheeran&apos;s &quot;Perfect&quot; playing in the background, he popped the question, and she joyfully accepted. 
+        Their evening continued with a private beachfront dinner, basking in the glow of their engagement.
         </p>
         <p className={`${halant.className} text-left pt-6 px-10 md:px-0 tracking-wide `}>
-        Samuel and Vidya can’t wait to celebrate with you at their wedding ceremonies and reception in September! Their wedding day is 
-        not just about celebrating their love; it’s about joining their lives in front of all their cherished friends and family. 
-        They can’t wait to dance the night away and embark on this beautiful adventure together!
+        Now, Samuel and Vidya eagerly anticipate sharing their special day with cherished friends and family this September. 
+        It&apos;s more than a wedding; it&apos;s a celebration of their union and the love they hold dear. Join them as they dance the night away, 
+        marking the beginning of a beautiful new chapter together!
         </p>
       </div>
     </section>

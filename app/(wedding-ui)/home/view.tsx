@@ -98,7 +98,7 @@ const View = () => {
             <h1
               className={`${cinzel.className} text-white group-hover:hidden text-3xl`}
             >
-              Our Works
+              Our Gallery
             </h1>
             <h2
               className={`${cinzel.className} text-white group-hover:hidden text-xl`}

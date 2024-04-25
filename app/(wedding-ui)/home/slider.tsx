@@ -10,7 +10,7 @@ import Link from "next/link";
 const Slider = () => {
 
   const [currentSlide, setCurrentSlide] = useState(0);
-  const date = "06/09/2024";
+  const date = "07/09/2024";
   const name = "Samuel & Vidya";
 
   const slides = [

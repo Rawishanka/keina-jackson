@@ -84,7 +84,7 @@ const DateBannar = () => {
               <BsStopwatchFill />
             </div>
           </div>
-          Missing Days to
+          Countdown to
           <br /> Wedding
         </div>
         <div className="sm:flex w-full justify-evenly bg-light-primary ">

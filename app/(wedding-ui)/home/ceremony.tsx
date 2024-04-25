@@ -32,7 +32,7 @@ const Ceremony = () => {
         </div>
         <div className="bg-light-primary text-white px-20">
           <h1 className={`${cinzel.className} text-3xl mt-11`}>
-            Hindu Ceremonyny
+            Hindu Ceremony
           </h1>
           <h2 className={`${cinzel.className} text-xl mt-4`}>
             September 6 2024
@@ -40,11 +40,9 @@ const Ceremony = () => {
           <p
             className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8`}
           >
-            Mandair :Shri Radha Krishna Mandir 126-04 133rd Ave, South Ozone
-            Park, NY 11420
-            <br />
-            Time: 2:00pm
-            <br />
+            Mandir: Shri Radha Krishna Mandir <br/>
+            Address: 126-04 133rd Ave, South Ozone Park, NY 11420 <br />
+            Time: 2:00pm <br />
             Dress Code: Traditional Indian Clothing
           </p>
           <div className="mb-2 sm:mb-0 flex items-center">
@@ -64,7 +62,7 @@ const Ceremony = () => {
         <div className="bg-light-secondary">
           <div className=" text-white px-20">
             <h1 className={`${cinzel.className} text-3xl mt-11`}>
-              Christian Ceremonyny
+              Christian Ceremony
             </h1>
             <h2 className={`${cinzel.className} text-xl mt-4`}>
               September 7 2024
@@ -72,9 +70,9 @@ const Ceremony = () => {
             <p
               className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8`}
             >
-              Global christian ministry 8615 114th St, Jamaica, NY 11418 <br />
-              Time:3:00pm
-              <br />
+              Church: Global christian ministry <br/>
+              Address: 8615 114th St, Jamaica, NY 11418 <br />
+              Time: 3:00pm <br />
               Dress Code: Formal Clothing
             </p>
             <div className="pb-2 flex items-center">

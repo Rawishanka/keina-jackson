@@ -38,7 +38,7 @@ const Christian = () => {
         <div className="bg-light-primary">
           <div className=" text-white sm:px-10 px-3 w-full">
             <h1 className={`${cinzel.className} lg:text-6xl text-3xl mt-3`}>
-              Hindu Ceremonyny
+              Hindu Ceremony
             </h1>
             <h2 className={`${cinzel.className} text-xl lg:text-3xl mt-4`}>
               September 6 2024
@@ -46,7 +46,7 @@ const Christian = () => {
             <p
               className={`${halant.className} mt-8 text-base tracking-wide line-clamp-6 leading-loose mb-8 lg:text-lg`}
             >
-              Address - Mandair :Shri Radha Krishna Mandir 126-04 133rd Ave,
+              Address - Mandir :Shri Radha Krishna Mandir 126-04 133rd Ave,
               South Ozone Park, NY 11420
               <br />
               Time: 2:00 pm
