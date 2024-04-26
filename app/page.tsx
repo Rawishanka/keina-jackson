@@ -23,26 +23,25 @@ import Quots from "./(wedding-ui)/home/quots";
 import { getAudioInstance } from "./lib/utils";
 import AudioPlayer from "./audio/audio";
 const HomePage = () => {
-  // const [audioStarted, setAudioStarted] = useState(false);
-
-  // useEffect(() => {
-  //   if (!audioStarted) {
-  //     const audio = getAudioInstance();
-  //     audio.play();
-  //     setAudioStarted(true);
-  //   }
-  // }, [audioStarted]);
-
-  const [audio] = useState(getAudioInstance);
-
   useEffect(() => {
+    const audio = getAudioInstance();
     audio.loop = true; // Loop the audio
     audio.play(); // Start playing the audio
-
     return () => {
-      audio.pause(); // Pause the audio when the component unmounts
+      audio.pause(); // Pause the audio when component unmounts
     };
-  }, [audio]);
+  }, []);
+
+  // const [audio] = useState(getAudioInstance);
+
+  // useEffect(() => {
+  //   audio.loop = true; // Loop the audio
+  //   audio.play(); // Start playing the audio
+
+  //   return () => {
+  //     audio.pause(); // Pause the audio when the component unmounts
+  //   };
+  // }, [audio]);
 
 
   return (
