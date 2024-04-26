@@ -1,13 +1,22 @@
 'use client'
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { cinzel, greatVibes, halant } from "@/app/fonts";
 import Navbar from "../home/navbar";
 import Link from "next/link";
 import { HiExternalLink } from "react-icons/hi";
 import HinduAudioPlayer from "@/app/audio/hindu-audio";
+import { getHinduAudioInstance } from "@/app/lib/utils";
 
 const Christian = () => {
+  useEffect(() => {
+    const audio = getHinduAudioInstance();
+    audio.loop = true; // Loop the audio
+    audio.play(); // Start playing the audio
+    return () => {
+      audio.pause(); // Pause the audio when component unmounts
+    };
+  }, []);
   return (
     <section className="realtive ">
       <div className="absolute top-6 left-0 z-10 w-full">
