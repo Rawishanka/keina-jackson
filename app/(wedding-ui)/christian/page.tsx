@@ -16,7 +16,7 @@ const Hindu = () => {
           CHRISTIAN CEREMONY
         </h1>
         <h2 className={`${cinzel.className} text-sm md:text-xl pt-5`}>
-          2024-09-07
+          09-07-2024
         </h2>
       </div>
       <div className="flex flex-wrap lg:flex-nowrap justify-center items-center lg:bg-light-primary">
@@ -44,10 +44,10 @@ const Hindu = () => {
               <p
                 className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
               >
-                Global christian ministry 8615 114th St, Jamaica, NY 11418{" "}
-                <br />
-                Time: 3:00pm <br />
-                Dress Code: Formal Clothing
+              Church: Global christian ministry <br/>
+              Address: 8615 114th St, Jamaica, NY 11418 <br />
+              Time: 3:00pm <br />
+              Dress Code: Formal Clothing
               </p>
             </div>
           </div>
@@ -71,8 +71,8 @@ const Hindu = () => {
             <p
               className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
             >
-              Address : Villa Russo 101-12 Lefferts Blvd, Richmond Hill, NY
-              11419 <br />
+              Church: Villa Russo <br/>
+              Address: 101-12 Lefferts Blvd, Richmond Hill, NY 11419 <br />
               Time : 6:30pm-12:00am <br />
               Dress Code : Formal Clothing
             </p>

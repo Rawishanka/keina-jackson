@@ -146,15 +146,21 @@ const ReservationForm = () => {
               <option value={"3"}>3</option>
               <option value={"4"}>4</option>
               <option value={"5"}>5</option>
+              <option value={"6"}>6</option>
+              <option value={"7"}>7</option>
+              <option value={"8"}>8</option>
+              <option value={"9"}>9</option>
+              <option value={"10"}>10</option>
+
             </select>
           </div>
           <div className="mt-4">
-            <span className="flex text-sm sm:text-md font-bold">Message</span>
+            <span className="flex text-sm sm:text-md font-bold">Guest Names</span>
             <textarea
               name="message"
               onChange={handleMessageChange}
               className="textarea textarea-bordered mt-1 px-2 focus:outline-none rounded sm:w-80 w-60 bg-slate-200 focus:border-none border-none active:border-none"
-              placeholder="Message"
+              placeholder="James, Mary, Robert, ....."
             ></textarea>
           </div>
           <div className="flex justify-center">

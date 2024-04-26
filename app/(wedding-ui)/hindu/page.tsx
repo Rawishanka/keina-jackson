@@ -16,7 +16,7 @@ const Christian = () => {
         <h1 className={`${cinzel.className} text-xl md:text-4xl`}>
           HINDU CEREMONY
         </h1>
-        <h2 className={`${cinzel.className} md:text-xl pt-5`}>2024-09-06</h2>
+        <h2 className={`${cinzel.className} md:text-xl pt-5`}>09-06-2024</h2>
       </div>
 
     
