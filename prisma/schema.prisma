@@ -16,8 +16,9 @@ datasource db {
 model Data {
   Id      Int    @id @default(autoincrement())
   Name    String
-  Email   String
+  Phone   String
   Status  Status
+  Guests  Int
   Message String @default(" ")
 }
 

@@ -1,7 +1,16 @@
-export type Status = "Hindu" | "Christian" | "HinduChristian" | "No" |null;
+export type Status = "Hindu" | "Christian" | "HinduChristian" | "No" ;
 export interface ReservationData {
   Name: string;
-  Email: string;
+  Phone: string;
   Status: Status;
+  Guests:Number;
+  Message: string;
+}
+export interface ReservationListData {
+  Id: Number;
+  Name: string;
+  Phone: string;
+  Status: Status;
+  Guests:Number;
   Message: string;
 }

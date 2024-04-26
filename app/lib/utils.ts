@@ -9,3 +9,13 @@ export const getAudioInstance = () => {
   }
   return audioInstance;
 };
+
+let audioHinduInstance:any = null;
+export const getHinduAudioInstance = () => {
+  if (!audioHinduInstance) {
+    audioHinduInstance= new Audio('/hindu.mp3');
+    audioHinduInstance.loop = true;
+    audioHinduInstance.play();
+  }
+  return audioHinduInstance;
+};

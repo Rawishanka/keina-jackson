@@ -7,27 +7,31 @@ import { ReservationData } from "./definition";
 
 const FormSchema = z.object({
   name: z.string(),
-  email: z.string(),
+  phone: z.string(),
   status: z.enum([
     "Hindu",
     "Christian",
     "HinduChristian",
     "No"
   ]),
+  guests:z.number(),
   message: z.string(),
 });
 export async function createProduct(formData:ReservationData) {
-    const {name, email, status, message} = FormSchema.parse({
+  const guestsCount = parseInt(formData.Guests.toString());
+    const {name, phone, status,guests, message} = FormSchema.parse({
       name: formData.Name,
-      email: formData.Email,
+      phone: formData.Phone,
       status: formData.Status,
+      guests:guestsCount,
       message: formData.Message,
     });
     const reserversation = await prisma.data.create({
         data: {
           Name: name,
-          Email:email,
+          Phone:phone,
           Status:status,
+          Guests:guests,
           Message:message
         },
       })

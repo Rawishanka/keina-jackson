@@ -1,10 +1,13 @@
+'use client'
 import React from 'react'
 import View from '../home/view'
 import { cinzel, greatVibes } from '@/app/fonts'
 import Navbar from '../home/navbar'
+import AudioPlayer from '@/app/audio/audio'
 const Gallery = () => {
   return (
     <div>
+      <AudioPlayer />
       <div className="absolute top-6 left-0 z-10 w-full">
         <Navbar />
       </div>

@@ -1,13 +1,16 @@
+'use client'
 import React from "react";
 import Image from "next/image";
 import { cinzel, greatVibes, halant } from "@/app/fonts";
 import Navbar from "../home/navbar";
 import Link from "next/link";
 import { HiExternalLink } from "react-icons/hi";
+import HinduAudioPlayer from "@/app/audio/hindu-audio";
 
 const Christian = () => {
   return (
     <section className="realtive ">
+      <HinduAudioPlayer/>
       <div className="absolute top-6 left-0 z-10 w-full">
         <Navbar />
       </div>

@@ -7,8 +7,9 @@ export async function fetchData(){
       select:{
         Id:true,
         Name:true,
-        Email:true,
+        Phone:true,
         Status:true,
+        Guests:true,
         Message:true
       },
       orderBy:{

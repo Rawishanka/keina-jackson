@@ -3,10 +3,12 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { cinzel, greatVibes, halant } from "@/app/fonts";
 import Navbar from "../home/navbar";
+import AudioPlayer from "@/app/audio/audio";
 
 const Hindu = () => {
   return (
     <section className="realtive ">
+      <AudioPlayer />
       <div className="absolute top-6 left-0 z-10 w-full">
         <Navbar />
       </div>

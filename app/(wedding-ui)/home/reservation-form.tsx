@@ -12,19 +12,20 @@ const ReservationForm = () => {
   const router = useRouter();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [Status, setStatus] = useState<Status>(null);
+  const [Status, setStatus] = useState<Status>("Hindu");
+  const [guests, setGuest] = useState<Number>(1);
   const [message, setMessage] = useState("");
   const handleNameChange = (event: any) => {
     setName(event.target.value);
   };
-  const handleEmailChange = (event: any) => {
+  const handlePhoneChange = (event: any) => {
     setEmail(event.target.value);
   };
   const handleStatusChange = (event: any) => {
     setStatus(event.target.value);
   };
   const handleGuestChange = (event: any) => {
-    setStatus(event.target.value);
+    setGuest(event.target.value);
   };
   const handleMessageChange = (event: any) => {
     setMessage(event.target.value);
@@ -34,8 +35,9 @@ const ReservationForm = () => {
     event.preventDefault();
     const data: ReservationData = {
       Name: name,
-      Email: email,
+      Phone: email,
       Status: Status,
+      Guests:guests,
       Message: message,
     };
     console.log(data);
@@ -101,12 +103,12 @@ const ReservationForm = () => {
             />
           </div>
           <div className="mt-4">
-            <span className="flex text-sm sm:text-md font-bold">Email </span>
+            <span className="flex text-sm sm:text-md font-bold">Phone Number </span>
             <input
-              type="email"
+              type="tel"
               required
-              name="email"
-              onChange={handleEmailChange}
+              name="phone"
+              onChange={handlePhoneChange}
               placeholder="Johnsmith@gmail.com"
               className="mt-1 px-2 focus:outline-none h-10 rounded sm:w-80 bg-slate-200 focus:border-none border-none active:border-none"
             />

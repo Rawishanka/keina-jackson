@@ -21,6 +21,7 @@ import View from "./(wedding-ui)/home/view";
 import { cinzel, greatVibes } from "@/app/fonts";
 import Quots from "./(wedding-ui)/home/quots";
 import { getAudioInstance } from "./lib/utils";
+import AudioPlayer from "./audio/audio";
 const HomePage = () => {
   // const [audioStarted, setAudioStarted] = useState(false);
 
@@ -39,6 +40,7 @@ const HomePage = () => {
         <source src="/invite.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio> */}
+      <AudioPlayer />
       <div className="relative">
         <div className="absolute top-3 left-0 z-10 w-full">
           <Navbar />
