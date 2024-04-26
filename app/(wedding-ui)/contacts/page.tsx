@@ -8,7 +8,6 @@ import AudioPlayer from "@/app/audio/audio";
 const Contacts = () => {
   return (
     <div className="relative">
-      <AudioPlayer />
       <div className="absolute top-6 left-0 z-10 w-full">
         <Navbar />
       </div>

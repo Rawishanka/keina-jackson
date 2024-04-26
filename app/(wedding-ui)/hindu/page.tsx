@@ -10,7 +10,6 @@ import HinduAudioPlayer from "@/app/audio/hindu-audio";
 const Christian = () => {
   return (
     <section className="realtive ">
-      <HinduAudioPlayer/>
       <div className="absolute top-6 left-0 z-10 w-full">
         <Navbar />
       </div>
