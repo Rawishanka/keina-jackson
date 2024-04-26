@@ -23,6 +23,9 @@ const ReservationForm = () => {
   const handleStatusChange = (event: any) => {
     setStatus(event.target.value);
   };
+  const handleGuestChange = (event: any) => {
+    setStatus(event.target.value);
+  };
   const handleMessageChange = (event: any) => {
     setMessage(event.target.value);
   };
@@ -124,6 +127,25 @@ const ReservationForm = () => {
               <option value={"Christian"}>Christian</option>
               <option value={"HinduChristian"}>Hindu & Christian</option>
               <option value={"No"}>No</option>
+            </select>
+          </div>
+          <div className="mt-4">
+            <span className="flex text-sm sm:text-md font-bold">
+              Guests{" "}
+            </span>
+            <select
+              onChange={handleGuestChange}
+              required
+              name="ceremony"
+              className="select w-full max-w-xs bg-slate-200 focus:outline-none focus:border-none"
+            >
+              <option selected value={"1"}>
+                1
+              </option>
+              <option value={"2"}>2</option>
+              <option value={"3"}>3</option>
+              <option value={"4"}>4</option>
+              <option value={"5"}>5</option>
             </select>
           </div>
           <div className="mt-4">

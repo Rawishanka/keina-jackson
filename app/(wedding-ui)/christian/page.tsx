@@ -63,7 +63,7 @@ const Hindu = () => {
           ></iframe>
           <div className="">
             <h1 className={`${cinzel.className} text-2xl md:text-3xl mt-11`}>
-              Reception Villa La Russo
+              Reception Villa Russo
             </h1>
             <h2 className={`${cinzel.className} md:text-2xl mt-2`}>
               September 7 2024
@@ -71,7 +71,7 @@ const Hindu = () => {
             <p
               className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
             >
-              Address : Villa La Russo 101-12 Lefferts Blvd, Richmond Hill, NY
+              Address : Villa Russo 101-12 Lefferts Blvd, Richmond Hill, NY
               11419 <br />
               Time : 6:30pm-12:00am <br />
               Dress Code : Formal Clothing
@@ -97,7 +97,7 @@ const Hindu = () => {
             <p
               className={`${halant.className} mt-4 text-base tracking-wide leading-loose mb-8`}
             >
-              Reception: Villa La Russo <br />
+              Reception: Villa Russo <br />
               Address : 101-12 Lefferts Blvd, Richmond Hill, NY 11419 <br />
               Time : 6:30pm-12:00am <br />
               Dress Code : Formal Clothing <br />
