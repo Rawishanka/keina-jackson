@@ -81,7 +81,7 @@ const Hindu = () => {
             <p
               className={`${halant.className} mt-4 lg:text-xl text-base tracking-wide leading-loose mb-8`}
             >
-              Church: Villa Russo <br/>
+              Venue: Villa Russo <br/>
               Address: 101-12 Lefferts Blvd, Richmond Hill, NY 11419 <br />
               Time : 6:30pm-12:00am <br />
               Dress Code : Formal Clothing
