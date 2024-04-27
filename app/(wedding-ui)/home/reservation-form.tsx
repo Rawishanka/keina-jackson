@@ -109,7 +109,7 @@ const ReservationForm = () => {
               required
               name="phone"
               onChange={handlePhoneChange}
-              placeholder="Johnsmith@gmail.com"
+              placeholder="123 456 7890"
               className="mt-1 px-2 focus:outline-none h-10 rounded sm:w-80 bg-slate-200 focus:border-none border-none active:border-none"
             />
           </div>
