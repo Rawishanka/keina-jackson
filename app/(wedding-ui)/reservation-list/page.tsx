@@ -23,7 +23,7 @@ const ReservationList = async () => {
             <th>Phone</th>
             <th>Comming Ceremony</th>
             <th>Guests</th>
-            <th>Message</th>
+            <th>Guest Names</th>
           </tr>
         </thead>
         <tbody className="text-xl">
